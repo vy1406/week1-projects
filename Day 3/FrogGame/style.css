@@ -1,0 +1,35 @@
+#header{
+      background-color: rgb(180,227,145);
+      height: 60px;
+}
+#container{
+    position:relative;
+    background-color: rgb(143,196,0);
+    height: 600px;
+}
+#mainButton{
+    background-color: rgb(73,192,240);
+}
+#frog1{
+    color: #fff;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 2em;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .grid-item {
+    background-color: rgb(180,227,145);
+    height:60px;
+    border: 2px solid black;
+  }
+
+  .textalign {
+    line-height: 60px; 
+    vertical-align: middle;
+    font-family: "Comic Sans MS";
+    text-align: center;
+  }
+
